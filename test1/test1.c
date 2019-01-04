@@ -1,16 +1,16 @@
 #include<stdio.h>
 	main()
 	{ 
-		int year ;
-		printf("请输入年份:\n");
-		scanf("%d",&year);
-		if( ( year%4==0 &&year %100!=0)||year%400==0)
-		
-			printf("是闰年");
-		
-			else
-			
-				printf("不是闰年");
-			
-		
+		int i=0;
+		int word=1;
+	char array[100];
+	gets(array);
+
+	for(i=0;array[i]!='\0';i++)
+	{
+		if(array[i]==' ')
+		word++;
+	}
+	printf("%d \n",word);
+
 	}
