@@ -214,7 +214,7 @@ void DeleteListRand(int a)
 		else if(temp==head)
 			DeleteListHead();	
 		else
-		{	//找要删除额temp前一个
+		{	//找要删除temp前一个
 			struct Node*pt =head;
 			while(pt->next!=temp)
 			{
@@ -233,11 +233,11 @@ void DeleteListRand(int a)
 void main ()
 {	
 	struct Node *pFind ;
-	AddListTill(1);
-	AddListTill(2);
-	AddListTill(3);
-	AddListTill(4);
-	AddListTill(5);
+	int i;
+	//创建5个节点
+	for(i=0;i<6;i++)
+	AddListTill(i);
+	
 //	AddListRand(4,14);
 //	DeleteListTail();	//删除一个尾巴
 	DeleteListRand(4);
