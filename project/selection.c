@@ -7,7 +7,7 @@
 	Ä¿µÄ:	Ñ¡ÔñÅÅÐò
 *********************************************************************/
 #include "stdio.h"
-
+/*
 int FindMax(int a[],int n)
 {
 	int max,i,pos;
@@ -50,5 +50,26 @@ void main()
 	for (i=0;i<9;i++)
 	{
 		printf("%d\n",arr[i]);
+	}
+}*/
+void main()
+{
+	int a[5]={2,3,6,4,1};
+	int i,j,temp,n;
+	n=5;
+	
+	for (i=0;i<n-1;i++)
+		for (j=i+1;j<n;j++)
+		{
+			if(a[j]<a[i])
+			{
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	for (i=0;i<n;i++)
+	{
+		printf("%d",a[i]);
 	}
 }
