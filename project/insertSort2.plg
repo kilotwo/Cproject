@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: insertSort2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WANZHO~1\AppData\Local\Temp\RSPC136.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/insertSort2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Cproject\project\insertSort2.c"
+]
+Creating command line "cl.exe @C:\Users\WANZHO~1\AppData\Local\Temp\RSPC136.tmp" 
+Creating temporary file "C:\Users\WANZHO~1\AppData\Local\Temp\RSPC137.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/insertSort2.pdb" /debug /machine:I386 /out:"Debug/insertSort2.exe" /pdbtype:sept 
+.\Debug\insertSort2.obj
+]
+Creating command line "link.exe @C:\Users\WANZHO~1\AppData\Local\Temp\RSPC137.tmp"
+<h3>Output Window</h3>
+Compiling...
+insertSort2.c
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(24) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(24) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(71) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(71) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(73) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(73) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(74) : error C2061: syntax error : identifier 'wstreampos'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(74) : error C2059: syntax error : ';'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(76) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(76) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(137) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(137) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(176) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(176) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(215) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(215) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(217) : error C2061: syntax error : identifier 'ios_base'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(217) : error C2059: syntax error : ';'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(218) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(218) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(220) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(220) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(222) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(222) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(224) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(224) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(226) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(226) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(228) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(228) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(230) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(230) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(232) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(232) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(235) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(235) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(238) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(238) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(241) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(241) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(244) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(244) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(246) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(246) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(248) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(248) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(250) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(250) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(254) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(254) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(255) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(255) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(256) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(256) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(257) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(257) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(258) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(258) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(259) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(259) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(261) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(261) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(263) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(263) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(265) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(265) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(267) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(267) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(268) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(268) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(269) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(269) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(270) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(270) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(272) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(272) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(273) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(273) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(275) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(275) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(276) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(276) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(277) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(277) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(278) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(278) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(280) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(280) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(282) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(282) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(284) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(284) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(286) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(286) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(287) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(287) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(288) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(288) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(289) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\iosfwd(289) : error C2059: syntax error : '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(16) : error C2143: syntax error : missing '{' before '<'
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(16) : fatal error C1003: error count exceeds 100; stopping compilation
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+insertSort2.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
